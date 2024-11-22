@@ -8,8 +8,6 @@ test('Login', async({page})=> {
     const Login = new LoginPage(page)
     await Login.gotologinPage('https://the-internet.herokuapp.com/login')
     await Login.login('tomsmith', 'SuperSecretPassword!')
-	console.log('test')
-	console.log('test2')
-
+	console.log('test3')
    
 })
