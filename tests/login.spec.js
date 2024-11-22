@@ -9,6 +9,7 @@ test('Login', async({page})=> {
     await Login.gotologinPage('https://the-internet.herokuapp.com/login')
     await Login.login('tomsmith', 'SuperSecretPassword!')
 	console.log('test')
+	console.log('test2')
 
    
 })
